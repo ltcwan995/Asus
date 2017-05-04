@@ -1,0 +1,60 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+ul, ol{
+    list-style: none;               /*清除列表风格*/
+}
+img{
+    border:0;
+}
+i,s,b,em{
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+.clearfix::before,.clearfix::after {
+    content:"";
+    height: 0;
+    line-height: 0;
+    display:block;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix{
+    zoom:1;
+}
+a,a:hover,a:active,a:focus,a:visited{
+    text-decoration: none;
+}
+
+.footer h4{
+	cursor: pointer;
+}
+/*返回顶部*/
+.fix{
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    right:50px;
+    top:500px;
+    z-index: 100;
+}
+.bTop{
+    width: 40px;
+    height: 40px;
+    background: url(../img/sprite.png) 0px 255px;
+    display:none;
+    cursor: pointer;
+}
+.bTop:hover{
+    background: url(../img/sprite.png) 0px 131px;
+}
+@media screen and (max-width: 768px) {
+	.fix{
+		display: none;
+	}
+}

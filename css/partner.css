@@ -1,0 +1,22 @@
+
+/*banner*/
+.banner,.banner>div{
+	padding: 0;
+}
+
+/*signup*/
+.signup{
+	padding: 30px 0;
+	background: #cdcdcd;
+}
+.signup .form-title{
+	color: #E5A42C;
+	font-size: 30px;
+	font-weight: bold;
+}
+.signup .tijiao{
+	text-align: center;
+}
+.signup .tijiao .btn{
+	width: 100px;
+}
